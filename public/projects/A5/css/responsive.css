@@ -1,0 +1,70 @@
+@media screen and (min-width: 768px) {
+	body {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 32px;
+		background-color: rgba(255,255,255,0);
+	}
+	
+	header nav a, header {
+		color: #763523;
+		background-color: #FFFEFB;
+	}
+	
+	header {
+		width: 200px;
+		min-width: 200px;
+		max-width: 300px;
+		flex: 1 1 auto;
+		border-radius: 0px 0px 6px 0px;
+	}
+	
+	nav a {
+		border-radius: 0px 0px 6px 0px;
+		transition: color 1s;
+		transition: background-color 1s;
+	}
+	nav a:hover {
+		color: #FFFEFB;
+		background-color: #763523;
+		transition: 1s;
+	}
+	
+	#site-title {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	
+	header, blockquote, header img {
+		box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	}
+	
+	.content {
+		display: flex;
+		flex-direction: column;
+		min-width: 400px;
+		flex: 1 1 400px;
+		
+		background-color: #FFFEFB;
+		box-shadow: -1px 1px 2px rgba(0,0,0,0.5);
+		border-radius: 0px 0px 0px 6px;
+	}
+	
+	footer {
+		color: black;
+	}
+	
+	html {
+		background-image: url("../img/bread.jpg");
+		background-size: cover;
+	}
+    
+    header, footer {
+        background-image: url("../img/g");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* put in the meta */

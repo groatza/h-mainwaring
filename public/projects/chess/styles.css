@@ -1,0 +1,39 @@
+table {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+}
+
+tr {
+    height: 50px;
+    width: 50px;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+}
+
+.light {
+    background-color: gray;
+}
+
+.dark {
+    background-color: darkgray;
+}
+
+.w {
+    color: white;
+}
+
+.b {
+    color: black;
+}
+
+.selected {
+    background-color: darkorange;
+}
+
+.possible {
+    background-color: cyan;
+}
